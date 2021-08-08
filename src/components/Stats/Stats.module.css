@@ -1,0 +1,27 @@
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  background-color: #f0eded;
+  border-top: 1px solid #d3d2d2;
+}
+
+.item {
+  padding: 20px;
+  width: 30%;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid #d3d2d2;
+}
+
+.label {
+  display: block;
+  color: #747373;
+  margin-bottom: 5px;
+}
+
+.quantity {
+  font-weight: bold;
+}
