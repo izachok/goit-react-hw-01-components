@@ -2,10 +2,12 @@
   max-width: 350px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+  text-align: center;
 }
 
 .profile {
   padding: 40px 40px;
+  background-color: #fff;
 }
 
 .avatar {

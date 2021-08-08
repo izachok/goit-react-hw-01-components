@@ -10,6 +10,7 @@
 .item {
   padding: 20px;
   width: 30%;
+  text-align: center;
 }
 
 .item:not(:last-child) {
