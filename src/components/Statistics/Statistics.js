@@ -7,14 +7,14 @@ function Statistics({ title, stats }) {
     <section className={s.container}>
       {title && <h2 className={s.title}>{title}</h2>}
       <ul className={s.list}>
-        {stats.map(stat => (
+        {stats.map(({ id, label, percentage }) => (
           <li
             className={s.listItem}
-            key={stat.id}
+            key={id}
             style={{ backgroundColor: getRandomRGBColor() }}
           >
-            <span className={s.label}>{stat.label}</span>
-            <span className={s.percentage}>{stat.percentage}%</span>
+            <span className={s.label}>{label}</span>
+            <span className={s.percentage}>{percentage}%</span>
           </li>
         ))}
       </ul>

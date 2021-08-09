@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import s from './FriendListItem.module.css';
 
 function FriendListItem({
-  id,
   avatar = 'https://www.flaticon.com/svg/static/icons/svg/1077/1077012.svg',
   name,
   isOnline = false,

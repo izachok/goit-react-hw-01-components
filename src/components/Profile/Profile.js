@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Profile.module.css';
-import Stats from '../Stats/Stats';
+import Stats from '../Stats';
 
 const Profile = function ({
   name,
